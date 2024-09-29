@@ -79,8 +79,8 @@ if(global.CanJump ==1){
 	    physics_apply_impulse(
 			playerX, 
 			playerY,		
-			lengthDirX, 
-			lengthDirY
+			-lengthDirX, 
+			-lengthDirY
 			)
 	
 		// Reset the squish

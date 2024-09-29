@@ -19,21 +19,28 @@ function temp_draw(){
 	var playerY = self.y;
 
 			// Cllamp the maximum mouse dist ance from player to Max range or ( Clamp range ) 
-	var clampX = clamp(mouse_x, playerX - global.ClampRange, playerX + global.ClampRange)
-	var clampY = clamp(mouse_y, playerY - global.ClampRange, playerY + global.ClampRange)
+	var clampX = clamp(mouse_x, playerX - global.ClampRange, playerX + global.ClampRange);
+	var clampY = clamp(mouse_y, playerY - global.ClampRange, playerY + global.ClampRange);
 
 			// get the didstance of the mouse from the player
-	var point_dist = point_distance(playerX,playerY,clampX,clampY)
+	var point_dist = point_distance(mouseX_snapshot,mouseY_snapshot,clampX,clampY);
 
 	// get the diesction from player to mouse 
-	var point_dir = point_direction(playerX, playerY, mouse_x, mouse_y)
+	var point_dir = point_direction(mouseX_snapshot, mouseY_snapshot, mouse_x, mouse_y);
 	
-	var Clamp_rever_dir = clamp(point_dir,0,360)
-
-	draw_text(0,20,"Mouse Angle to player : " + string(Clamp_rever_dir) + "Deg ");
+	
+	var lengthDirX = lengthdir_x(point_dist, point_dir);
+	
+	var lengthDirY = lengthdir_y(point_dist, point_dir);
 
 	
-	draw_text(0,80,"Reverse Mouse Angle to player : " + string(Clamp_rever_dir) + "Deg ");
-
+	draw_text(0,20,"Mouse Snapshot X : " + string(mouseX_snapshot));
+	draw_text(0,40,"Mouse Snapshot Y : " + string(mouseY_snapshot));
+	
+	draw_text(0,80,"X based on Distance/Dir Vector : " + string(lengthDirX));
+	draw_text(0,100,"Y based on Distance/Dir Vector : " + string(lengthDirY));
+	
+	draw_text(0,120,"Negative X based on Distance/Dir Vector : " + string(-lengthDirX));
+	draw_text(0,149,"Negative Y based on Distance/Dir Vector : " + string(-lengthDirY));
 
 }

@@ -3,5 +3,8 @@ draw_line_color(Room_PosX,Room_PosY,mouse_x,mouse_y,c_green,c_green);
 	
 	
 
-draw_reverse_line_colour(Room_PosX,Room_PosY,mouse_x,mouse_y,c_red)
+//draw_reverse_line_colour(Room_PosX,Room_PosY,mouse_x,mouse_y,c_red)
+
+
+draw_reverse_line_colour_2(Room_PosX,Room_PosY,mouse_x,mouse_y,c_red);
 	
