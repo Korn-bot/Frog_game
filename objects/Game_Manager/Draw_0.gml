@@ -1,0 +1,1 @@
+sc_game_controler_draw();

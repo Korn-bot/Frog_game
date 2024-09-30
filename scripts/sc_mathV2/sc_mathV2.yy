@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_MathV2",
+  "%Name":"sc_mathV2",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_MathV2",
+  "name":"sc_mathV2",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"kind_of_libs?",
+    "path":"folders/Scripts/kind_of_libs?.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

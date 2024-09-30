@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"sc_drawV2",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"kind_of_libs?",
+    "path":"folders/Scripts/kind_of_libs?.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
