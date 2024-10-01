@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_player_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_player_create",
+  "parent":{
+    "name":"player_controlers",
+    "path":"folders/Scripts/player_controlers.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

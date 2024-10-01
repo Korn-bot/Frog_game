@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_drawV2",
+  "%Name":"sc_player_step",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_drawV2",
+  "name":"sc_player_step",
   "parent":{
-    "name":"kind_of_libs?",
-    "path":"folders/Scripts/kind_of_libs?.yy",
+    "name":"player_controlers",
+    "path":"folders/Scripts/player_controlers.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
