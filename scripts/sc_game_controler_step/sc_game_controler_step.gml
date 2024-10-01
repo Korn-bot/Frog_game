@@ -2,7 +2,10 @@ function sc_game_controler_step(){
 	
 //Global cheack if the player can jump or not 
 	if(position_meeting(mouse_x,mouse_y,obj_Player)){
-		global.CanJump = 1;
+		global.CanJump = true;
+	}
+	else{
+		global.CanJump = false;
 	}
 	
 	// Gain the snapshot of the Mouse 
