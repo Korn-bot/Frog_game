@@ -49,11 +49,11 @@
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"sc_drawV2","path":"scripts/sc_drawV2/sc_drawV2.yy",},},
     {"id":{"name":"sc_game_controler_create","path":"scripts/sc_game_controler_create/sc_game_controler_create.yy",},},
     {"id":{"name":"sc_game_controler_draw","path":"scripts/sc_game_controler_draw/sc_game_controler_draw.yy",},},
     {"id":{"name":"sc_game_controler_step","path":"scripts/sc_game_controler_step/sc_game_controler_step.yy",},},
+    {"id":{"name":"sc_game_state_controler","path":"scripts/sc_game_state_controler/sc_game_state_controler.yy",},},
     {"id":{"name":"sc_mathV2","path":"scripts/sc_mathV2/sc_mathV2.yy",},},
     {"id":{"name":"sc_player_collisions","path":"scripts/sc_player_collisions/sc_player_collisions.yy",},},
     {"id":{"name":"sc_player_create","path":"scripts/sc_player_create/sc_player_create.yy",},},
@@ -68,7 +68,6 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

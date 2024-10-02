@@ -28,9 +28,9 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
-    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"sc_game_controler_draw","order":2,"path":"scripts/sc_game_controler_draw/sc_game_controler_draw.yy",},
     {"name":"sc_game_controler_step","order":1,"path":"scripts/sc_game_controler_step/sc_game_controler_step.yy",},
+    {"name":"sc_game_state_controler","order":3,"path":"scripts/sc_game_state_controler/sc_game_state_controler.yy",},
     {"name":"sc_mathV2","order":1,"path":"scripts/sc_mathV2/sc_mathV2.yy",},
     {"name":"sc_player_create","order":2,"path":"scripts/sc_player_create/sc_player_create.yy",},
     {"name":"sc_player_step","order":1,"path":"scripts/sc_player_step/sc_player_step.yy",},
